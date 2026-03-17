@@ -1,0 +1,39 @@
+name: color_palette
+description: "Camera color picker - Extract palettes from photos"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Camera & image
+  image_picker: ^1.1.2
+
+  # Color extraction
+  palette_generator: ^0.3.3
+
+  # Export & sharing
+  share_plus: ^10.1.4
+
+  # Local storage
+  path_provider: ^2.1.5
+
+  # UI utilities
+  flutter_colorpicker: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
